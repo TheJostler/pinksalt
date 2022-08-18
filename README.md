@@ -31,4 +31,4 @@ I chose to use a 20-bit integer meaning there are a total of 1,048,575 unique po
 
 It's a trade off between storage capacity and time it takes to retrieve the information, as you add bits to the salt the number of combinations grows exponentially; making retrieval time longer!
 
-If you want to you can change the value of SALT_CAP in pink salt.c(line:) to increase/decrease the total range of salts that you will use.
+If you want to you can change the value of SALT_CAP in pink salt.c(line:13) to increase/decrease the total range of salts that you will use.
