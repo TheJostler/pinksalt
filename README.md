@@ -7,7 +7,7 @@ It is a simple program that is the result of a thought experiment I had, it test
 Many developers use Salted passwords to make life more difficult for a hacker trying to bruteforce passwords.
 A salt is a fixed length random integer appended to the end of the password before it's hashed. I figured why does the salt have to be random.
 
-If the integer at the end of the password could store usefull information, this information would be stored/transported securely as the only way to retrieve the information is to know the password and to spend time bruteforcing the information!
+If the integer at the end of the password could store useful information, this information would be stored/transported securely as the only way to retrieve the information is to know the password and to spend time bruteforcing the information!
 
 This could be used to make information even more private and secure as the information is not really being stored
 in a way that can be decrypted. 
