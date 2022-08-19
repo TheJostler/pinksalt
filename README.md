@@ -14,6 +14,8 @@ in a way that can be decrypted.
 
 The information must to attained through a brute force password attack.
 
+Of course this is totally impractical if implemented into an authentication service, so don't use it for that!
+
 ## How to use
 
 This program simply takes a string and a 5 digit hexadecimal number and hashes them. 
