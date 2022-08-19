@@ -2,7 +2,7 @@
 
 This is a demonstration of a password salter + hasher, only this is a very special kind of salt, hence the name!
 
-It is a simple program that is the result of a thought experiment I had, it tests the idea of storing simple information into a password hash.
+It is a simple program that is the result of a thought experiment I had, it tests the idea of storing simple information into a password hash. DON'T ACTUALLY USE THIS IN ANY AUTHENTICATION SYSTEM🤣
 
 Many developers use Salted passwords to make life more difficult for a hacker trying to bruteforce passwords.
 A salt is a fixed length random integer appended to the end of the password before it's hashed. I figured why does the salt have to be random.
